@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Titan Gym</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img src="assets/logo-white.png" alt="logo" class="logo-white" />
+              <img src="assets/logo-dark.png" alt="logo" class="logo-dark" />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#facility__content">Sobre-nós</a></li>
+          <li><a href="#class">Modalidades</a></li>
+          <li><a href="#plans">Planos</a></li>
+          <li><a href="#">Join Now</a></li>
+        </ul>
+        <div class="nav__btns">
+          <a href="https://wa.me/5599999999999" target="_blank" rel="noopener noreferrer">
+        <button class="btn">Matricular-se agora</button>
+      </a>
+    </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__content">
+          <h1>Não pare antes do sucesso!</h1>
+          <h2>30% off</h2>
+          <p>
+        Na Titan Gym oferecemos exercícios de corpo inteiro de baixo impacto com uma variedade de aulas que desafiam sua mente e seu corpo.
+          </p>
+          <div class="header__btn">
+            <button class="btn" onclick="explorarMais()">Explore mais</button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+  <div class="about" id="about">
+    <div class="section__container about__container">
+      
+      <div class="about__image-text-wrapper">
+        <div class="about__image-group">
+          <div class="top-row">
+            <div class="about__card">
+              <img src="assets/image1.png" alt="Yoga" />
+            </div>
+            <div class="about__card">
+              <img src="assets/image2.png" alt="Pilates" />
+            </div>
+          </div>
+          <div class="middle-row">
+            <div class="about__card">
+              <img src="assets/image3.png" alt="Dança" />
+            </div>
+          </div>
+        </div>
+
+        <div class="about__text">
+          <h2>Comece agora!</h2>
+          <p> Tenha variedades de aulas que desafiam sua mente e seu corpo.</p>
+
+          <div class="about__stats">
+            <div class="stat">
+              <h3><span class="counter" data-target="350">0</span>+</h3>
+              <p>Alunos Ativos</p>
+            </div>
+            <div class="stat">
+              <h3><span class="counter" data-target="25">0</span></h3>
+              <p>Tipos de Aulas</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <section id="plans" class="plans">
+    <div class="plan-card">
+      <h3>Plano Start</h3>
+      <ul>
+        <li>✔️ Acesso a area de musculação</li>
+        <li>✔️ Mais de 10 modalidades inclusas</li>
+        <li>✔️ Treinos personalizados</li>
+        <li>✔️ Avaliação física inicial</li>
+      </ul>
+        <a href="#" onclick="abrirWhatsapp()">Assine aqui</a>
+    </div>
+
+    <div class="plan-card premium">
+      <h3>Plano Premium</h3>
+      <ul>
+        <li>🔥 Tudo do Plano Start</li>
+        <li>✔️ Personal trainer exclusivo</li>
+        <li>✔️ Nutricionista parceiro</li>
+        <li>✔️ Acesso VIP em horários especiais</li>
+        <li>✔️ Kit de boas-vindas premium</li>
+      </ul>
+      <a href="#" onclick="abrirWhatsapp()">Assine aqui</a>
+    </div>
+  </section>
+
+    <section class="popular" id="class">
+      <div class="section__container popular__container">
+        <h2 class="section__header"></h2>
+        <div class="popular__grid">
+          <div class="popular__card">
+            <div>
+              <h4>+ de 10 modalidades esperando por você!</h4>
+              
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+          <div class="popular__card">
+            <div>
+              <h4>Natação</h4>
+              <p>Os exercícios na água oferecem inúmeros benefícios para o corpo</p>
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+          <div class="popular__card">
+            <div>
+              <h4>Para todas as idades</h4>
+              <p>A Pratique é para todos, independente da idade.</p>
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+          <div class="popular__card">
+            <div>
+              <h4>Equipamentos Novos</h4>
+              <p>Na Titan Gym os equipamentos são de ponta.</p>
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+          <div class="popular__card">
+            <div>
+              <h4>Artes Marciais</h4>
+              <p>Um verdadeiro sucesso entre homens e mulheres, as artes marciais</p>
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+          <div class="popular__card">
+            <div>
+              <h4>Personal Trainer</h4>
+              <p>Só se chegará a seus objetivos com a pratica certa dos exercícios e para isso, você conta com nossos personais.</p>
+            </div>
+            <span>
+              <i class="ri-arrow-right-fill"></i>
+            </span>
+          </div>
+        
+      </div>
+    </section>
+
+    <section class="facility__container">
+      <div class="facility__image">
+        <img src="assets/facility.png" alt="facility" />
+      </div>
+      <div id="facility__content" class="facility__content">
+        <h2 class="section__header">Sobre Nós</h2>
+        <p>
+         Com mais de 10 anos no mercado, a Titan Gym é referência quando o assunto é saúde, bem-estar e qualidade de vida. Ao longo dessa década, conquistamos a confiança de milhares de alunos com um compromisso firme: entregar resultados reais com segurança, acolhimento e profissionalismo.
+        </p>
+        <p>
+          Nosso espaço é mais do que uma academia. É um ambiente motivador, onde cada aluno é tratado com atenção e respeito às suas individualidades. Contamos com estrutura moderna, equipamentos de última geração, e uma equipe de profissionais altamente qualificados, incluindo professores, personal trainers e nutricionistas parceiros.
+        </p>
+        <p>
+          Oferecemos mais de 10 modalidades para que você encontre a atividade ideal para o seu estilo de vida — do iniciante ao avançado, do funcional à natação.
+
+        </p>
+      </div>
+    </section>
+<section class="u-align-center u-clearfix u-section-8" id="carousel_1e4d">
+  <div class="u-clearfix u-sheet u-sheet-1">
+    <h2 class="u-text u-text-default u-text-1">Como ajudamos as pessoas</h2>
+    <p class="u-text u-text-grey-40 u-text-2">
+     Relato dos nossos alunos.
+    </p>
+    <div class="u-expanded-width u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+
+        <!-- Card 1 -->
+        <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-horizontal">
+            <div class="u-container-style u-grey-10 u-group u-radius-40 u-shape-round u-group-1">
+              <div class="u-container-layout">
+                <p class="u-text u-text-default u-text-grey-50 u-text-3">
+                  "Ambiente limpo, equipamentos modernos e professores incríveis!"
+                </p>
+              </div>
+            </div>
+            <h6 class="u-custom-font u-font-montserrat u-text u-text-default u-text-4">Paul Smith</h6>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-horizontal">
+            <div class="u-container-style u-grey-10 u-group u-radius-40 u-shape-round u-group-2">
+              <div class="u-container-layout">
+                <p class="u-text u-text-default u-text-grey-50 u-text-5">
+                 "Em poucas semanas já percebi minha disposição melhorar. Ótimo atendimento e estrutura!"
+                </p>
+              </div>
+            </div>
+            <h6 class="u-custom-font u-font-montserrat u-text u-text-default u-text-6">Sara Perry</h6>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="u-container-style u-list-item u-repeater-item u-shape-rectangle">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-horizontal">
+            <div class="u-container-style u-grey-10 u-group u-radius-40 u-shape-round u-group-3">
+              <div class="u-container-layout">
+                <p class="u-text u-text-default u-text-grey-50 u-text-7">
+                  "Equipe super atenciosa! Me senti acolhida desde o primeiro dia."
+                </p>
+              </div>
+            </div>
+            <h6 class="u-custom-font u-font-montserrat u-text u-text-default u-text-8"> Hudson</h6>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+
+
+.u-section-8 {
+  padding: 60px 20px;
+  background-color: #96c0c7;
+  font-family: 'Arial', sans-serif;
+}
+
+.u-sheet-1 {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.u-text-1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #191970;
+}
+
+.u-text-2 {
+  font-size: 1.1rem;
+  color:#ffffff;
+  margin-bottom: 40px;
+}
+
+.u-list-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.u-repeater-item {
+  width: 100%;
+  max-width: 600px;
+  background-color:#E0FFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.u-repeater-item:hover {
+  transform: translateY(-5px);
+}
+
+.u-container-layout-horizontal {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 15px;
+}
+
+.u-group {
+  background-color: #B0C4DE;
+  padding: 15px;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.u-text-grey-50 {
+  color: #000000;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.u-text-4,
+.u-text-6,
+.u-text-8 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #070707;
+  min-width: 120px;
+  text-align: left;
+}
+</style>
+
+
+    <section class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+  <a href="#" class="footer__logo">
+    <img src="assets/logo-white.png" alt="FitnessFit logo" />
+  </a>
+
+            <div class="footer__info">
+              <h4>Contato</h4>
+              <ul class="footer__links">
+                <li>
+                  <a href="https://wa.me/5511945483849" target="_blank">
+                    <i class="ri-whatsapp-line"></i> +11 94548-3849
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@TitanGym.com">
+                    <i class="ri-mail-line"></i> info@TitanGym.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__info">
+              <h4>Endereço</h4>
+              <ul class="footer__links">
+                <li>
+                  <a href="https://maps.google.com?q=Brasil" target="_blank">
+                    <i class="ri-map-pin-line"></i> Endereço
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__info">
+              <h4>Redes Sociais</h4>
+              <div class="footer__socials">
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-facebook-box-line"></i></a>
+                <a href="#"><i class="ri-youtube-line"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer__col">
+            <h4>Horários</h4>
+            <ul class="footer__links horarios__lista">
+              <li data-day="domingo">Domingo 5h - 22h</li>
+              <li data-day="segunda">Segunda 5h - 22h</li>
+              <li data-day="terça">Terça 5h - 22h</li>
+              <li data-day="quarta">Quarta 5h - 22h</li>
+              <li data-day="quinta">Quinta 5h - 22h</li>
+              <li data-day="sexta">Sexta 5h - 22h</li>
+              <li data-day="sábado">Sábado 5h - 22h</li>
+
+              <div id="status-academia" class="status-abertura"></div>
+
+            </ul>
+          </div>
+
+                <div class="footer__col">
+                  <h4>Como chegar</h4>
+                  <div class="footer__map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.482349729557!2d-46.65657218539426!3d-23.5881108846627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cc7f36ef5f%3A0x62a3b06bbcd3eeb5!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1710113213372!5m2!1spt-BR!2sbr"
+                      width="100%" height="200" style="border:0;" allowfullscreen=""
+                      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+              </div>
+
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 .
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
