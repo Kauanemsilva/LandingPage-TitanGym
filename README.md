@@ -2,6 +2,12 @@
 
 Uma landing page moderna e totalmente responsiva desenvolvida para academias, com foco na captação de novos alunos e divulgação dos serviços oferecidos.
 
+
+<div align="center">
+  <img src="./assets/pc.jpeg" alt="Preview" width="400"/>
+</div>
+
+
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica e acessível
