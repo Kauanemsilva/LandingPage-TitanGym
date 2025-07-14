@@ -25,5 +25,7 @@ Compatível com diversos tamanhos de tela: desktops, tablets e smartphones.
 ```bash
 git clone https://github.com/Kauanemsilva/LandingPage-TitanGym.git
 
+  </b><br>
 
-<p align="center"> <img src="assets/pc.jpeg" alt="Banner da Titan Gym" width="600"> </p> ``` 
+![pc](https://github.com/user-attachments/assets/0246a7f1-004e-43b2-a4c3-90d9cc9df27d)
+
