@@ -18,12 +18,19 @@ Este projeto é uma landing page moderna e responsiva desenvolvida para academia
 
 ## 📱 Responsivo
 Compatível com diversos tamanhos de tela: desktops, tablets e smartphones.
-
 ## 🛠️ Como executar
+
 1. Clone o repositório:
+
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/seu-usuario/landingpage-academia.git
 
 <p align="center">
   <img src="assets/pc.jpeg" alt="Banner da Titan Gym" width="600">
 </p>
+=======
+git clone https://github.com/Kauanemsilva/LandingPage-TitanGym.git
+
+
+>>>>>>> ed754bfee9d3d76a43362ad13591bd73d8a23eea
