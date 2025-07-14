@@ -1,10 +1,25 @@
 HEAD
 
-# LandingPage-TitanGym
+# LandingPage-TitanGym 💪
 
-Landing page moderna e responsiva desenvolvida para academias, com foco no marketing.
+Este projeto é uma landing page moderna e responsiva desenvolvida para academias, com o objetivo de atrair novos alunos, divulgar os serviços oferecidos.
 
-# Fitness_Point_28-09-24
+## 🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
+- JavaScript
 
-In this step-by-step tutorial, you’ll learn how to create a modern and fully responsive gym and fitness website from scratch using HTML, CSS, and JavaScript.
-12d25b8 (Primeiro commit)
+## 🎯 Funcionalidades
+- Seção de apresentação com chamada para ação (CTA)
+- Galeria de imagens
+- Planos de treino e valores
+- Formulário de contato
+- Integração com redes sociais
+
+## 📱 Responsivo
+Compatível com diversos tamanhos de tela: desktops, tablets e smartphones.
+
+## 🛠️ Como executar
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/landingpage-academia.git
