@@ -23,3 +23,8 @@ Compatível com diversos tamanhos de tela: desktops, tablets e smartphones.
 1. Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/landingpage-academia.git
+
+
+<p align="center">
+  <img src="assets/pc.jpeg" alt="Banner da Titan Gym" width="600">
+</p>
