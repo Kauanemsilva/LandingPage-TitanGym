@@ -8,6 +8,12 @@ Uma landing page moderna e totalmente responsiva desenvolvida para academias, co
 </div>
 
 
+## 🌟 Preview
+
+> **Visite o site:** Titan Gym -[ https://kauanemsilva.github.io/LandingPage-TitanGym/) ](#) 
+
+
+
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica e acessível
